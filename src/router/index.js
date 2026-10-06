@@ -6,7 +6,7 @@ import DateTimeView from '../views/DateTimeView.vue'
 import ConfirmView from '../views/ConfirmView.vue'
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     { path: '/', name: 'inicio', component: HomeView },
     { path: '/agendar/barbero', name: 'barbero', component: BarberView },
