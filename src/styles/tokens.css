@@ -1,0 +1,30 @@
+/* Colores y tipografía tomados del logo de Young Friends Barber Style. */
+:root {
+  --bg: #e3e2dd;
+  --surface: #f0efeb;
+  --fg: #191919;
+  --muted: #66655f;
+  --line: #cbc9c2;
+  --spray: #1fe9f2; /* acento: botones y selección */
+  --on-spray: #0f1313; /* texto sobre el acento */
+  --solid: #191919;
+  --on-solid: #f0efeb;
+  --logo-ground: #e3e2dd; /* fondo del logo (el JPG trae este color) */
+
+  --font-display: 'Rubik Wet Paint', 'Impact', 'Arial Black', sans-serif;
+  --font-body: 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101313;
+    --surface: #1a1e1e;
+    --fg: #ecebe6;
+    --muted: #9b9d98;
+    --line: #2e3333;
+    --solid: #ecebe6;
+    --on-solid: #101313;
+    color-scheme: dark;
+  }
+}
